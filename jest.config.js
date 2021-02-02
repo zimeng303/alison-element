@@ -1,6 +1,6 @@
 module.exports = {
     // 用哪里找测试文件
-    "testMatch": ["**/__test__/**/*.[jt]s?(x)"],
+    "testMatch": ["**/__tests__/**/*.[jt]s?(x)"],
     // 测试文件中导入的模块后缀
     "moduleFileExtensions": [
         "js",
@@ -12,6 +12,6 @@ module.exports = {
         // 用 `vue-jest` 处理 `*.vue` 文件
         ".*\\.(vue)$": "vue-jest",
         // 用 `babel-jest` 处理 js
-        ".*\\(js)$": "babel-jest"
+        ".*\\.(js)$": "babel-jest"
     }
 }
